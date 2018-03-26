@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>工大银行</title>
+</head>
+<body>
+    <h1>工大银行欢迎您！</h1>
+{#    <from action="{% url 'login:check' username password verifcode %}" method="post">#}
+    <from method="post">
+    	<label>用户名</label>
+        <input type="text" name="username" />
+        <label>密码</label>
+        <input type="text" name="password"/>
+        <input type="submit" value="登陆" />
+    </from>
+{# <a href="{% url 'register:index' %}">注册</a> #}
+</body>
+</html>
