@@ -1,2 +1,2 @@
 # hitbank
-HIT Virtual Network Bank
+Virtual Network Bank
